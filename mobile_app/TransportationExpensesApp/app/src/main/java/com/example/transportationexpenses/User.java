@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey;
 @Entity(indices = {@Index(value = {"data"}, unique = true)})
 public class User {
     @PrimaryKey
-    public long id;
+    public int id;
 
     @ColumnInfo
     public String data;
